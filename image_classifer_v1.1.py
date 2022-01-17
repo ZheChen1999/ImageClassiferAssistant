@@ -70,7 +70,6 @@ def button1():
     image = PIL.Image.open(img_path2)
     print(img_path2.split('/')[-1])
     if img_path2.split('/')[-1]  in dataset_image_filename:
-
         if True:
             if which_class == "A":
                 img_save_path2 = "Pos_sample/" + dataset_image_filename[number_image]
